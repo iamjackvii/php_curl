@@ -9,9 +9,9 @@
 
 <body>
     <div class="container">
-        <form action="" class="search-bar">
+        <form action="server.php" method="post" class="search-bar">
             <input type="text" placeholder="Search Here" name="search">
-            <button type="submit"><img src="images/search.png"></button>
+            <button type="submit" name="search"><img src="images/search.png"></button>
         </form>
     </div>
 </body>
